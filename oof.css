@@ -1,10 +1,6 @@
-/* Font using
-<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-*/
-
 body {
   background-color: rgb(44, 44, 44);
-  font-family: 'Roboto Mono', monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #f5f5f5;
 }
 
@@ -24,6 +20,14 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background-color: #949494;
+}
+
+::-moz-selection {
+  background-color: #3a3a3a;
+}
+
+::selection {
+  background-color: #3a3a3a;
 }
 
 a {
@@ -48,7 +52,7 @@ button {
   border-color: rgb(105, 105, 105);
   display: inline-block;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size:16px;
   text-decoration: none;
   padding:9px 20px;
