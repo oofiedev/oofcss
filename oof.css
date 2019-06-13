@@ -93,10 +93,32 @@ input {
   border: none;
   background-color: rgb(66, 66, 66);
   color: white;
+  font-size: inherit;
 }
 
 input:focus {
   background-color: rgb(54, 54, 54);
+}
+
+textarea {
+  background-color: rgb(59, 59, 59);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  border: solid;
+  border-color: rgb(97, 97, 97);
+  border-width: 3px;
+  margin-right: 0;
+  margin-bottom: 6px;
+  padding: 12px 20px;
+  resize: vertical;
+  font-size: inherit;
+  outline: none;
+  width: 50%;
+}
+
+textarea:focus {
+  background-color: #292929;
 }
 
 /*Classes*/
