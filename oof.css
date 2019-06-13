@@ -32,6 +32,11 @@ html {
   background-color: #3a3a3a;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h1,
 h2,
 h3,
