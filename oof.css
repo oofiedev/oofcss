@@ -1,0 +1,108 @@
+/* Font using
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+*/
+
+* {
+  background-color: rgb(44, 44, 44);
+  font-family: 'Roboto Mono', monospace;
+  color: #f5f5f5;
+}
+
+a {
+  text-decoration: none !important;
+  color: #2b5de7;
+}
+/*
+div {
+  text-align: center;
+}*/
+
+/*
+h1 {
+  text-align: center;
+  margin-top: 15%;
+}*/
+
+button {
+  outline: none;
+  background-color:#474747;
+	
+  border:1px solid #474747;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Roboto Mono', monospace;
+  font-size:16px;
+  padding:9px 25px;
+  text-decoration:none;
+}
+
+/*
+-moz-border-radius:28px;
+-webkit-border-radius:28px;
+border-radius:28px;
+*/
+
+button:hover {
+  background-color: #838383;
+}
+
+input {
+  outline: none;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+input:focus {
+  background-color: rgb(54, 54, 54);
+}
+
+/*Classes*/
+/* nice-box class */
+.nice-box {
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(97, 97, 97);
+}
+
+.nice-box p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nice-box h1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nice-box h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nice-box h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nice-box h4 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nice-box div {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.nice-box button {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
